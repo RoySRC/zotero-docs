@@ -2,6 +2,20 @@
 
 Changes in released versions of Zotero 10.0 are documented on this page. To follow development, see the [commit log on GitHub](https://github.com/zotero/zotero/commits/). More recent changes may be available in a [beta build](beta_builds).
 
+## Changes in 10.0.7 (October 29, 2026)
+
+- [Security] Remove compromised eMudhra certificates
+- Fixed retrying of interrupted Zotero Storage file downloads (since 10.0)
+- Fixed "no such table: ftindex.fulltextIndexMeta" startup error
+- Fixed row highlight getting stuck after a fast drag exit from collection or item tree
+- [Word for Windows] Fixed "Object has been deleted" error when importing document from another word processor
+- Allow hiding warning about an inaccessible system keystore for 30 days when attempting to migrate sync credentials
+- Plugin-related fixes
+  - Fixed startup sync possibly hanging on "Waiting for other operations to finish" with certain plugins installed
+  - Fixed blank reader tab due to plugin creating invalid custom theme
+  - Prevent plugins from writing invalid settings that break syncing, and ignore existing ones
+- Miscellaneous other bug fixes
+
 ## Changes in 10.0.6 (October 7, 2026)
 
 - Fixed Find Full Text not finding files on some sites
