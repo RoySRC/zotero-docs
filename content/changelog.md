@@ -2,6 +2,24 @@
 
 Changes in released versions of Zotero 10.0 are documented on this page. To follow development, see the [commit log on GitHub](https://github.com/zotero/zotero/commits/). More recent changes may be available in a [beta build](beta_builds).
 
+## Changes in 10.0.6 (October 7, 2026)
+
+- Fixed Find Full Text not finding files on some sites
+- Fixed Find Full Text stalling on various server errors
+- [Mac] Re-enabled local voices in Read Aloud on macOS 27 and fixed clicking after each sentence
+- Fixed slow rendering of PDFs with JPEG2000 images
+- [Security] Updated Mozilla platform to 140.17.0esr
+- [Developer] Local API: Decode `+` as a space in form-encoded requests
+
+## Changes in 10.0.5 (September 30, 2026)
+
+- Fixed potential errors in large databases after Zotero 10 update
+- Fixed attachment not being placed under new parent item after ISBN-based document recognition
+- [Mac] Temporarily disable local voices on macOS due to loud audio pop after each sentence
+- Don't match an item by a trashed child item in a search
+- Fixed missing action buttons in RTF Scan's Verify Cited Items table
+- [Developer] Local API: Fixed object writes with API-client-supplied keys
+
 ## Changes in 10.0.4 (September 22, 2026)
 
 *Zotero for Mac only*

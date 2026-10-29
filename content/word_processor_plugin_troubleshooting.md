@@ -55,8 +55,9 @@ If you see one of the above errors in a **new, empty document** (and not just a 
 2.  If the plugin still isn't working, restart your computer. Start Zotero before starting Word.
 3.  If the plugin still isn't working, go to your [Word Startup folder](word_processor_plugin_manual_installation#locating_your_word_startup_folder), delete Zotero.dotm, and restart Word to make sure that the plugin is completely gone from Word. (If the "Zotero" tab isn't disappearing, see the steps in the linked section.) Once the "Zotero" tab is gone from Word, [reinstall the plugin](#zotero_toolbar_doesn_t_appear).
 4.  Make sure that you're running Zotero as the same user as Word. Specifically, check to make sure neither program is running as administrator (right-click → Properties → Compatibility). For security and stability reasons, you should typically not run any software as administrator.
-5.  Temporarily disable any security software you're running, which could interfere with the connection between Word and Zotero.
-6.  If you've set up Zotero to use [multiple Zotero profiles](kb/multiple_profiles) (most people haven't), you might have configured Zotero to launch with the `-no-remote` command-line option. This will prevent the plugins from functioning, and if you've done this you should remove the `-no-remote` command-line option from the shortcut used to launch the Zotero profile. This flag should never be used with Zotero.
+5.  In Word, go to File → Options → Trust Center → "Trust Center Settings…" → File Block Settings and make sure "Open" is unchecked for "RTF Files". Zotero needs to be able to open RTF files to insert text into your document.
+6.  Temporarily disable any security software you're running, which could interfere with the connection between Word and Zotero.
+7.  If you've set up Zotero to use [multiple Zotero profiles](kb/multiple_profiles) (most people haven't), you might have configured Zotero to launch with the `-no-remote` command-line option. This will prevent the plugins from functioning, and if you've done this you should remove the `-no-remote` command-line option from the shortcut used to launch the Zotero profile. This flag should never be used with Zotero.
 
 #### Zotero tab does not appear in the Word ribbon
 
